@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="quanli.css">
+<title>Trang Quản Lý Menu</title>
+</head>
+<body>
+  <header>
+    <h1>Trang Quản Lý Menu</h1>
+  </header>
+  <main>
+    <section id="menu-list">
+      <h2>Danh Sách Món Ăn</h2>
+      <div class="menu-items">
+        <!-- Dữ liệu món ăn sẽ được thêm vào đây từ JavaScript -->
+      </div>
+    </section>
+    <section id="add-form">
+      <h2>Thêm Món Ăn</h2>
+      <form id="menu-form">
+        <label for="food-name">Tên Món Ăn:</label>
+        <input type="text" id="food-name" name="food-name" required>
+
+        <label for="food-type">Loại Món:</label>
+        <input type="text" id="food-type" name="food-type" required>
+
+        <label for="food-price">Giá:</label>
+        <input type="number" id="food-price" name="food-price" required>
+
+        <button type="submit">Thêm Món Ăn</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Nhà Hàng XYZ. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="datban.css">
+<title>Đặt Bàn</title>
+</head>
+<body>
+  <header>
+    <h1>Đặt Bàn Nhà Hàng</h1>
+  </header>
+  <main>
+    <section id="booking-form">
+      <h2>Đặt Bàn Ngay</h2>
+      <form id="reservation-form">
+        <label for="name">Họ và Tên:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="date">Ngày:</label>
+        <input type="date" id="date" name="date" required>
+
+        <label for="time">Thời Gian:</label>
+        <input type="time" id="time" name="time" required>
+
+        <label for="guests">Số Lượng Khách:</label>
+        <input type="number" id="guests" name="guests" required>
+
+        <button type="submit">Đặt Bàn</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2023 Nhà Hàng XYZ. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
